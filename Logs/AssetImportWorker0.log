@@ -245,3 +245,229 @@ Received Import Request.
 Start importing Assets/Graphics/Floor/Floor4.png using Guid(aca6b48c8175eea47921e2f4b808d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432455215449e4de14a1c8f62bcf6edd') in 0.030662 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1080.438358 seconds.
+  path: Assets/Graphics/Floor/Floor1.png
+  artifactKey: Guid(0fb3c91a2c7d28044b6591c1cc5f0660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Floor/Floor1.png using Guid(0fb3c91a2c7d28044b6591c1cc5f0660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af95043821833face3f3d7ecc6af2986') in 0.014708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 133.434189 seconds.
+  path: Assets/Graphics/Floor/Floor3.png
+  artifactKey: Guid(29967f0a6ce60a9499bc8f27010b51c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Floor/Floor3.png using Guid(29967f0a6ce60a9499bc8f27010b51c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115f1926d17a935e0ed667cb17706a4f') in 0.023194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Graphics/Floor/Floor4.png
+  artifactKey: Guid(aca6b48c8175eea47921e2f4b808d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Floor/Floor4.png using Guid(aca6b48c8175eea47921e2f4b808d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69449804f94b2727a2ab647ff7569ec') in 0.045530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.524453 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Queen_Station.png
+  artifactKey: Guid(6ac9622ed35e9d34091fa9cfdd881231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Queen_Station.png using Guid(6ac9622ed35e9d34091fa9cfdd881231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fad86b42712ab3e8839bdd9c63325c0') in 0.011659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007410 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Abyss.png
+  artifactKey: Guid(e6c67f22f7c96844e8b1387e792ed374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Abyss.png using Guid(e6c67f22f7c96844e8b1387e792ed374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce66f1327149da28572c5e454ff125d5') in 0.013036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.044296 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Art_Junk_Pit.png
+  artifactKey: Guid(4b71c941f88097d4a83ffa5944060971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Art_Junk_Pit.png using Guid(4b71c941f88097d4a83ffa5944060971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48aee5b877343789ffb4696c33e3e4f1') in 0.020850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Green_Path.png
+  artifactKey: Guid(91cc6835f0bf6a24082b544c58939415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Green_Path.png using Guid(91cc6835f0bf6a24082b544c58939415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17c241fbd5d6c97e415cbd583e80f68') in 0.025065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Mage_Tower.png
+  artifactKey: Guid(9ded1dbc84da6e84ebe5f354296c7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Mage_Tower.png using Guid(9ded1dbc84da6e84ebe5f354296c7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d3452b2542721dc5d4eecf21804794') in 0.031727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Palace_Grounds.png
+  artifactKey: Guid(6101762df567bf049a26c23e5a267e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Palace_Grounds.png using Guid(6101762df567bf049a26c23e5a267e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074ead35d6c7199d6837ee7d8e7ec7c9') in 0.024459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Forgotten Crossroads.png
+  artifactKey: Guid(51dcb455264da2645859ad58e1c2e8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Forgotten Crossroads.png using Guid(51dcb455264da2645859ad58e1c2e8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032118fe5eb9f417e45f1e881fa5575e') in 0.018115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Hive.png
+  artifactKey: Guid(4493f57d0cddabb439b68c25035c7fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Hive.png using Guid(4493f57d0cddabb439b68c25035c7fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89aae6074f7919dafbfa15a5ef3919c') in 0.016151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Waterways.png
+  artifactKey: Guid(5136c1026973908408e256fbd0862dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Waterways.png using Guid(5136c1026973908408e256fbd0862dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5deb0254fac984c8df79231e1295048') in 0.014555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Tram_Lower.png
+  artifactKey: Guid(b83b71222402c06468e22069493bdffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Tram_Lower.png using Guid(b83b71222402c06468e22069493bdffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52338a3a1e3f7ba986c235f533bb4426') in 0.014252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Colosseum.png
+  artifactKey: Guid(45dfa3931608d7d42bc3c82542de10d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Colosseum.png using Guid(45dfa3931608d7d42bc3c82542de10d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d782274dbf97036670efd1661cd9a0') in 0.024096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Art_Mantis_Village.png
+  artifactKey: Guid(e6ffc53223d203045b41e116f76869c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Art_Mantis_Village.png using Guid(e6ffc53223d203045b41e116f76869c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6602b6bb588ca5e0c88a9e288b713582') in 0.012328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Deepnest.png
+  artifactKey: Guid(81c37eee721044147a9a4ccfa6a8c613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Deepnest.png using Guid(81c37eee721044147a9a4ccfa6a8c613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70d2ead38dc2f5f75b0543c1dcf87a9') in 0.013944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Crystal_Mines.png
+  artifactKey: Guid(ebbaf23d7927ecb4497ffdc661bb9b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Crystal_Mines.png using Guid(ebbaf23d7927ecb4497ffdc661bb9b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2cb3c06b6f3f22becc32551cf4435e') in 0.018659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Kingdoms_Edge.png
+  artifactKey: Guid(4709ddcfebfbcc745bad3f79f262ec04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Kingdoms_Edge.png using Guid(4709ddcfebfbcc745bad3f79f262ec04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6119207b75cc3e77d97150d5999ac2') in 0.011151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Tram.png
+  artifactKey: Guid(34c0cd96fa69ebf43a4ae117c6819936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Tram.png using Guid(34c0cd96fa69ebf43a4ae117c6819936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7191619ffa0b6487a6cf4ae3e8dba9f') in 0.012122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Resting_Grounds.png
+  artifactKey: Guid(f8172564c48e055409eb97169c119b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Resting_Grounds.png using Guid(f8172564c48e055409eb97169c119b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f3486620cb1e8825c57e878ec4d5aa') in 0.010330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.369 seconds
+Refreshing native plugins compatible for Editor in 3.50 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.864 seconds
+Domain Reload Profiling: 1231ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (864ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (371ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 3.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3998 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.6 KB). Loaded Objects now: 4478.
+Memory consumption went from 139.5 MB to 139.2 MB.
+Total: 2.792100 ms (FindLiveObjects: 0.234500 ms CreateObjectMapping: 0.118000 ms MarkObjects: 2.291400 ms  DeleteObjects: 0.147200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

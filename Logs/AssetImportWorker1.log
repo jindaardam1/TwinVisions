@@ -189,3 +189,144 @@ Received Import Request.
 Start importing Assets/Graphics/Floor/_0070_abyss_02.png using Guid(afd9a3332a5d0a7419eab9a7d38464c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5d74b94cca4dee19b46c497d3638f9') in 0.072665 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1309.910860 seconds.
+  path: Assets/Graphics/Floor/Floor2.png
+  artifactKey: Guid(afd9a3332a5d0a7419eab9a7d38464c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Floor/Floor2.png using Guid(afd9a3332a5d0a7419eab9a7d38464c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccc5e9ea7f96aa6db4bb1e51b018ca6') in 0.026811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.571437 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Art_City_of_Tears.png
+  artifactKey: Guid(439ecc36d0d7ea74d839558f14762db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Art_City_of_Tears.png using Guid(439ecc36d0d7ea74d839558f14762db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95508e6d31daf6efc30fd7e8f5db168') in 0.019834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.037208 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Art_Godshome.png
+  artifactKey: Guid(e9af9d12e5fc2964493274df635e1058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Art_Godshome.png using Guid(e9af9d12e5fc2964493274df635e1058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27855272756380574f036729f935d09') in 0.022217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Royal_Gardens.png
+  artifactKey: Guid(789e347fb440b2e4bb5844ff40b42c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Royal_Gardens.png using Guid(789e347fb440b2e4bb5844ff40b42c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137bfce399110c374340fabff7d7e9b0') in 0.025756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Kings_Pass.png
+  artifactKey: Guid(797911bd8503fca4e997975ca34b30a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Kings_Pass.png using Guid(797911bd8503fca4e997975ca34b30a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d49a844638fe43c33d31681bce7cc96') in 0.020643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Lurian_Tower.png
+  artifactKey: Guid(eb013ce7812351f449d9e63e4a7b97d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Lurian_Tower.png using Guid(eb013ce7812351f449d9e63e4a7b97d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e72960398cfebf3bf023a52a4329ed') in 0.013112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Graphics/Backgrounds/Area_White_Palace.png
+  artifactKey: Guid(7a0147bcc0d75194fae1bd3c2b985bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_White_Palace.png using Guid(7a0147bcc0d75194fae1bd3c2b985bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5264314ce60ade4b16f878a10ed946d0') in 0.020842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Royal_Quarter.png
+  artifactKey: Guid(326e72d8b3c718a49b2984c375d93082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Royal_Quarter.png using Guid(326e72d8b3c718a49b2984c375d93082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac3a2741c9fcba824b109610ae2fd49') in 0.012606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Dirtmouth.png
+  artifactKey: Guid(0490ffaad43e14f44949f9a0a7e9178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Dirtmouth.png using Guid(0490ffaad43e14f44949f9a0a7e9178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43bb214f25f1af90beefb3eed825a34') in 0.018004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Teacher_archive.png
+  artifactKey: Guid(5ed71fd6befb6cf43a728c7f463c634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Teacher_archive.png using Guid(5ed71fd6befb6cf43a728c7f463c634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d7a63fcf132e2e6f68baeb8a419f31') in 0.012729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Dream_Well.png
+  artifactKey: Guid(a248be1873ec2174aaaeaa4ba7fc6928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Dream_Well.png using Guid(a248be1873ec2174aaaeaa4ba7fc6928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfdd8f5237036e2c9ef13c9cb98c56c') in 0.019414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Black_Egg.png
+  artifactKey: Guid(7a5349812f38a834497465497cdb7d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Black_Egg.png using Guid(7a5349812f38a834497465497cdb7d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38faa0fe4b5252a4061781c437994e3') in 0.017223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Fungal_Wastes.png
+  artifactKey: Guid(1333487f03f81f84eb47e0ae47e3a440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Fungal_Wastes.png using Guid(1333487f03f81f84eb47e0ae47e3a440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4b6f70f57aaea4f8665b9f63c96bfa') in 0.012957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Cliffs.png
+  artifactKey: Guid(826f597071546984687769d7a1c5631d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Cliffs.png using Guid(826f597071546984687769d7a1c5631d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0152413668fa8a8c8def7261de84175c') in 0.020613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Garz_Den.png
+  artifactKey: Guid(e5c332fd24f8c86439ab41511e93e138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Garz_Den.png using Guid(e5c332fd24f8c86439ab41511e93e138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a9a7f4ad3a026bbfb3f4e34ea79ebc') in 0.019967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Shaman_Temple.png
+  artifactKey: Guid(a1421aff95b316044a1d18a419db6f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Shaman_Temple.png using Guid(a1421aff95b316044a1d18a419db6f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2365f907bbe26e171b58efffba1572ae') in 0.010396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Graphics/Backgrounds/Area_Kings_Station.png
+  artifactKey: Guid(33a9fbf559208d74cadf99b63d886918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Backgrounds/Area_Kings_Station.png using Guid(33a9fbf559208d74cadf99b63d886918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154b663f5c77d6d881830d72c8b9b2a1') in 0.011483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
