@@ -25,8 +25,7 @@ public class PersonajePrincipal : MonoBehaviour
     
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Suelo"))
-        {
+        if (collision.gameObject.CompareTag("Suelo")) {
             enSuelo = true; // El personaje está en el suelo
         }
     }
