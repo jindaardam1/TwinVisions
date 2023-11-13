@@ -7,15 +7,17 @@ public class PlayerController : MonoBehaviour
     public float fuerzaSalto = 10.0f;
     public bool enSuelo; 
     public SpriteRenderer spriteRenderer;
+    public Animator animator;
 
     private void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         enSuelo = true;
 
-        // Obtener una referencia al SpriteRenderer
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.flipX = true;
+        
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -26,13 +28,16 @@ public class PlayerController : MonoBehaviour
 
         rb2d.velocity = movimiento * velocidad;
 
-        spriteRenderer.flipX = movimientoHorizontal switch
+        animator.SetBool("estaAndando", movimientoHorizontal != 0);
+
+        if (movimientoHorizontal < 0)
         {
-            // Cambiar la escala del sprite según la dirección
-            < 0 => false,
-            > 0 => true,
-            _ => spriteRenderer.flipX
-        };
+            spriteRenderer.flipX = false;
+        }
+        else if (movimientoHorizontal > 0)
+        {
+            spriteRenderer.flipX = true;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
