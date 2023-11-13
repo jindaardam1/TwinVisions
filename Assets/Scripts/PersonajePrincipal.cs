@@ -5,9 +5,7 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rb2d;
     public float velocidad = 5.0f;
     public float fuerzaSalto = 10.0f;
-    public bool enSuelo;
-
-    // Nueva variable para el SpriteRenderer
+    public bool enSuelo; 
     public SpriteRenderer spriteRenderer;
 
     private void Start()
@@ -17,6 +15,7 @@ public class PlayerController : MonoBehaviour
 
         // Obtener una referencia al SpriteRenderer
         spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.flipX = true;
     }
 
     private void Update()
@@ -27,17 +26,13 @@ public class PlayerController : MonoBehaviour
 
         rb2d.velocity = movimiento * velocidad;
 
-        // Cambiar la escala del sprite según la dirección
-        if (movimientoHorizontal < 0)
+        spriteRenderer.flipX = movimientoHorizontal switch
         {
-            // Si se mueve hacia la izquierda, invierte la escala en X
-            spriteRenderer.flipX = false;
-        }
-        else if (movimientoHorizontal > 0)
-        {
-            // Si se mueve hacia la derecha, restaura la escala en X
-            spriteRenderer.flipX = true;
-        }
+            // Cambiar la escala del sprite según la dirección
+            < 0 => false,
+            > 0 => true,
+            _ => spriteRenderer.flipX
+        };
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
