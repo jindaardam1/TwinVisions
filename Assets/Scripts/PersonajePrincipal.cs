@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public bool enSuelo; 
     public SpriteRenderer spriteRenderer;
     public Animator animator;
+    private static readonly int EstaAndando = Animator.StringToHash("estaAndando");
 
     private void Start()
     {
@@ -28,16 +29,14 @@ public class PlayerController : MonoBehaviour
 
         rb2d.velocity = movimiento * velocidad;
 
-        animator.SetBool("estaAndando", movimientoHorizontal != 0);
+        animator.SetBool(EstaAndando, movimientoHorizontal != 0);
 
-        if (movimientoHorizontal < 0)
+        spriteRenderer.flipX = movimientoHorizontal switch
         {
-            spriteRenderer.flipX = false;
-        }
-        else if (movimientoHorizontal > 0)
-        {
-            spriteRenderer.flipX = true;
-        }
+            < 0 => false,
+            > 0 => true,
+            _ => spriteRenderer.flipX
+        };
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
