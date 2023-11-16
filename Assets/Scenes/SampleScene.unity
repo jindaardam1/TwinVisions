@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 344139149}
   - component: {fileID: 344139151}
   - component: {fileID: 344139152}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor2
   m_TagString: Suelo
   m_Icon: {fileID: 0}
@@ -594,10 +594,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb2d: {fileID: 0}
-  velocidad: 5
-  fuerzaSalto: 10
-  enSuelo: 0
+  velocidadNormal: 5
+  velocidadCorriendo: 8.5
   spriteRenderer: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!95 &1267821642
 Animator:
   serializedVersion: 5
@@ -863,7 +863,7 @@ GameObject:
   - component: {fileID: 2057867421}
   - component: {fileID: 2057867424}
   - component: {fileID: 2057867423}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor1
   m_TagString: Suelo
   m_Icon: {fileID: 0}
