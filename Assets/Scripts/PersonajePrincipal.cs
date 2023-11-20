@@ -1,20 +1,26 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
     public Rigidbody2D rb2d;
-    
+
     public float velocidadNormal = 5.0f;
     public float velocidadCorriendo = 8.5f;
     private const float FactorVelocidadCorriendo = 1.2f;
 
-    private bool _enSuelo;
     public LayerMask capaSuelo;
-    private const float FuerzaSalto = 10.0f;
-    
+    private const float FuerzaSalto = 11.0f;
+    public const int SaltosMaximos = 1;
+    public int saltosRestantes;
+
+    public BoxCollider2D boxCollider;
+
     public SpriteRenderer spriteRenderer;
     public Animator animator;
     private static readonly int EstaAndando = Animator.StringToHash("estaAndando");
+    
+    public GameManager gameManager;
 
     private void Start()
     {
@@ -22,11 +28,12 @@ public class PlayerController : MonoBehaviour
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.flipX = true;
-        
+
         animator = GetComponent<Animator>();
 
-        _enSuelo = EstaEnSuelo();
-        capaSuelo = LayerMask.GetMask("Suelo");
+        boxCollider.GetComponent<BoxCollider2D>();
+
+        saltosRestantes = SaltosMaximos;
     }
 
     private void Update()
@@ -34,33 +41,56 @@ public class PlayerController : MonoBehaviour
         var movimientoHorizontal = GetMovimientoHorizontal();
         var correr = GetCorriendo();
 
-        // Ajustar la velocidad según si está corriendo o no
+        GestionarVelocidadYMovimiento(correr, movimientoHorizontal);
+
+        DireccionJugador(movimientoHorizontal);
+
+        ProcesarSalto();
+    }
+
+    private void GestionarVelocidadYMovimiento(bool correr, float movimientoHorizontal)
+    {
         var velocidadActual = correr ? velocidadCorriendo : velocidadNormal;
 
-        // Ajustar la velocidad del movimiento
-        var movimiento = new Vector2(movimientoHorizontal, -rb2d.gravityScale);
-        rb2d.velocity = movimiento * velocidadActual;
+        rb2d.velocity = new Vector2(movimientoHorizontal * velocidadActual, rb2d.velocity.y);
 
-        // Ajustar la animación de caminar
         animator.SetBool(EstaAndando, movimientoHorizontal != 0);
 
-        // Ajustar la velocidad de ejecución de la animación de caminar
         var factorVelocidadAnimacion = correr ? FactorVelocidadCorriendo : 1f;
         animator.speed = factorVelocidadAnimacion;
+    }
 
-        // Ajustar la escala del sprite para reflejar la dirección del movimiento
+    private void DireccionJugador(float movimientoHorizontal)
+    {
         spriteRenderer.flipX = movimientoHorizontal switch
         {
             < 0 => false,
             > 0 => true,
             _ => spriteRenderer.flipX
         };
-        
-        // Añadir la condición para el salto
-        if (Input.GetKeyDown(KeyCode.Space) && _enSuelo)
+    }
+
+    private void ProcesarSalto()
+    {
+        if (EstaEnSuelo())
         {
-            Saltar();
+            saltosRestantes = SaltosMaximos;
         }
+
+        if (Input.GetKeyDown(KeyCode.Space) && saltosRestantes > 0)
+        {
+            saltosRestantes--;
+            rb2d.AddForce(Vector2.up * FuerzaSalto, ForceMode2D.Impulse);
+        }
+    }
+
+    private bool EstaEnSuelo()
+    {
+        var bounds = boxCollider.bounds;
+        var rayCastHit = Physics2D.BoxCast(bounds.center, new Vector2(bounds.size.x, bounds.size.y),
+            0f, Vector2.down, 0.2f, capaSuelo);
+
+        return rayCastHit.collider != null;
     }
 
     private static float GetMovimientoHorizontal()
@@ -73,21 +103,26 @@ public class PlayerController : MonoBehaviour
         return Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
     }
     
-    private bool EstaEnSuelo()
+    public void MostrarPantallaGameOver()
     {
-        // Lanzar un rayo hacia abajo desde la posición del personaje
-        var hit = Physics2D.Raycast(transform.position, Vector2.down, 0.1f, capaSuelo);
-
-        // Comprobar si el rayo golpeó algo (está en el suelo)
-        return hit.collider != null;
+        SceneManager.LoadScene("Scenes/GameOver");
     }
     
-    private void Saltar()
+    public void MostrarPantallaHasGanado()
     {
-        rb2d.AddForce(Vector2.up * FuerzaSalto, ForceMode2D.Impulse);
-        _enSuelo = false; // Actualizar la condición de estar en el suelo
-        // También puedes añadir una transición de animación de salto aquí si es necesario.
+        SceneManager.LoadScene("Scenes/HasGanado");
     }
-
-
+    
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("ZonaDeMuerte"))
+        {
+            MostrarPantallaGameOver();
+        }
+        
+        if (collision.gameObject.CompareTag("GanarJuego"))
+        {
+            MostrarPantallaHasGanado();
+        }
+    }
 }
